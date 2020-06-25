@@ -1,0 +1,22 @@
+{
+  "name": "mwelection",
+  "version": "1.0.0",
+  "description": "Malawi election results tracker using tweets from bnltimes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "node server.js"
+  },
+  "keywords": [
+    "malawi",
+    "elections"
+  ],
+  "author": "Mac Davel Kalumbi",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-schedule": "^1.3.2",
+    "requests": "^0.3.0",
+    "twitter": "^1.7.1"
+  }
+}
